@@ -135,7 +135,7 @@ ProxyBatchSize=1
 ProxyBatchTimeout=10
 NetworkBatchSize=0
 NetworkBatchTimeout=0
-NClientRequests=0
+NClientRequests=10
 
 : <<'END'
     No need to modify variables and functions beyond this line 

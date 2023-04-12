@@ -168,7 +168,7 @@ func (c *Config) CalcConstants() {
 }
 
 func (c *Config) loadRedisVars() {
-	c.StorageMode = 0
+	c.StorageMode = 2
 	c.RedisAddr = []string{"localhost:6379", "localhost:6380", "localhost:6381"}
 }
 
